@@ -4,6 +4,7 @@
 *.o
 .deps
 .libs
+*.pc
 /aclocal.m4
 /autom4te.cache
 /build-aux
@@ -16,8 +17,10 @@ libbitcoin-consensus.pc
 
 # IDE's and editors:
 *~
+diff.*
 .*.swp
 .dirstamp
+*.stamp
 /*.kdev4
 /.cproject
 /.project
